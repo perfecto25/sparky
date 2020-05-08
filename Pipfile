@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+hypercorn = "*"
+jinja2 = "*"
+aiofiles = "*"
+dictor = "*"
+uvicorn = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+#sparky = 'hypercorn app:app -k asyncio -w 1 -b 0.0.0.0:5400 --reload'
+#sparky = 'uvicorn --host 0.0.0.0 --port 5400 --workers 1 app:app --reload'
+sparky = 'python run.py'
