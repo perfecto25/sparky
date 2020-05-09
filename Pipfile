@@ -7,11 +7,12 @@ verify_ssl = true
 
 [packages]
 fastapi = "*"
-hypercorn = "*"
 jinja2 = "*"
 aiofiles = "*"
 dictor = "*"
 uvicorn = "*"
+psycopg2 = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,4 +1,4 @@
-from app import app, templates
+from sparky import app, templates
 from fastapi import Request
 
 @app.get("/")
