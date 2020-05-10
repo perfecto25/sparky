@@ -8,7 +8,7 @@ also has a background task scheduler (tasks.py) and error handler (errors.py)
 
 Youtube tutorial: 
 
-https://www.youtube.com/watch?v=Vcqc4GzDvb
+https://www.youtube.com/watch?v=Vcqc4GzDvbI
 
 ## how to run
 use Pipenv to install dependencies (Pipfile)
